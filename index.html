@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/asset/style.css" />
+    
+  </head>
+  <body>
+    <header>
+      <section class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning p-4">
+          <a class="navbar-brand" href="#">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <section class="container m-5" id="bookManager">
+        <div class="container">
+          <form class="mt-4" id="bookForm">
+              <div class="mb-3">
+                  <label for="bookname" class="form-label text-warning">Book name</label>
+                  <input type="text" placeholder="Please, enter the book name ..." class="form-control"
+                      id="bookname" aria-describedby="emailHelp" >
+              </div>
+              <div class="mb-3">
+                  <label for="authorname" class="form-label text-warning">Author name</label>
+                  <input type="text" class="form-control" placeholder="Please, enter the Author name ..."
+                      id="authorname" >
+              </div>
+              <div class="mb-3">
+                  <label for="year" class="form-label text-warning">Year</label>
+                  <input type="number" class="form-control" min="1" placeholder="Please, enter the publication year ..."
+                      id="year" >
+              </div>
+            <button type="submit" class="btn btn-warning m-3" id="submit">SUBMIT</button>
+          </form>
+        </div>
+        
+      </section>
+      
+
+      <div class="container mt-3 mb-4 d-flex justify-content-center w-100 h-100">
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="/asset/image/360_F_559768283_VlC6LPmjv18zWHsYEF858Jl8wJXnZcNX.jpg"
+              alt=""
+              srcset=""
+            />
+            <p style="color: white;">As someone who has been a front-end developer for many years, let me tell you — front-end development is a profession that moves lightning-fast. New frameworks, libraries, and technologies are emerging all the time.</p>
+
+          </div>
+        </div>
+      </div>
+
+
+     
+      </div>
+    </main>
+
+    <footer>
+      <section class="booksTable">
+        <div class="container">
+          <table class="table table-striped table-warning">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Book name</th>
+                <th scope="col">Author</th>
+                <th scope="col">Publication year</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody id="bookData">
+             <tr>
+              <td colspan="6" class="text-center">
+                <span class="text-center">Cedvelde melumat tapilmadi</span>
+            </td>
+             </tr>
+           
+  
+            </tbody>
+          </table>
+        </div>
+        
+      </section>
+     
+    </footer>
+    <script src="asset/script.js"></script>
+  </body>
+</html>

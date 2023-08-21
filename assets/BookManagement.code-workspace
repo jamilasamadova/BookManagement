@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/UserManager-4"
+		},
+		{
+			"path": "../../../Downloads/UserManager-5"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BookManagement"
+	}
+}
